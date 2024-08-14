@@ -1,0 +1,42 @@
+.product-form {
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin: 12px;
+    outline: none;
+}
+
+.select-form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    }
+
+.btn {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 8px;
+    margin: 10px;
+    &:hover {
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+    }
+ }
+}
