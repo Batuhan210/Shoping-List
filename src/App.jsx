@@ -32,7 +32,7 @@ const App = () => {
     
       useEffect(() => {
         if (allBought) {
-          Alert("Alışveriş Tamamlandı");
+          alert("Shopping Completed");
         }
       }, [products, allBought]);
     
